@@ -1,0 +1,33 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	
+	font-family: sans-serif;
+}
+
+nav {
+	background: black;
+	color: white;
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+	font-size: large;
+}
+
+nav ul {
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	height: 64px;
+	align-items: center;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 16px;
+}
+
+
+main {
+	margin: 32px auto;
+	max-width: 40em;
+}
