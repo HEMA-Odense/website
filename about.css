@@ -1,0 +1,10 @@
+section.members {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.member img {
+	width: 200px;
+	height: 300px;
+}

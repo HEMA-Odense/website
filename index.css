@@ -1,0 +1,27 @@
+header {
+	color: white;
+	position: absolute;
+	top: calc(50vh - 64px);
+	left: 10%;
+	display: flex;
+	align-items: center;
+}
+header h1 {
+	display: inline-block;
+	margin: 16px;
+}
+header img {
+	float: left
+}
+
+body {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('photo1.jpg');
+	background-size: auto calc(max(100vh, 100vw));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+main {
+	margin-top: calc(100vh - 64px);
+}
